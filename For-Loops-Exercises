@@ -48,3 +48,49 @@ int main()
 		}
 		cout << endl;
 }
+
+
+
+#include <iostream>
+using namespace std;
+int main()
+{
+	int r;
+
+	cout << "Write a number to get the cube" << endl;
+	cin >> r;
+	
+	for (int x = 1; x <= r; x++)
+	{
+		cout << "\nNumber is " << x << " the cube is ";
+
+		int y = x;
+		y = y * y * y;
+		cout << y;
+	}
+	return 0;
+}
+
+
+
+#include <iostream>
+using namespace std;
+int main()
+{
+	int sum = 0;
+	for (int x = 100; x <= 200; x++)
+	{
+		if (x % 9 == 0)
+
+		{
+			cout << "\nNumber is " << x << endl;
+
+			sum = sum + x;
+
+		}
+
+	}
+	cout << "The sum is " << sum << endl;
+
+	return 0;
+}
